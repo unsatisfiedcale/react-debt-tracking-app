@@ -48,7 +48,7 @@ function Menu() {
           </>
         ) : (
           <>
-            <Link to="/">
+            <Link to="/dashboard">
               <MenuItem icon={<AiOutlineDashboard className="h-6 w-6" />} label="Gösterge Paneli" />
             </Link>
             <Link to="/debts">

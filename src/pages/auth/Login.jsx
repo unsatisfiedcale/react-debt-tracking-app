@@ -12,7 +12,7 @@ const Login = () => {
     if (user) {
       // Başarılı giriş işlemi
       message.success("Giriş başarılı!");
-      navigate("/");
+      navigate("/dashboard");
 
     }
   };
@@ -66,7 +66,7 @@ const Login = () => {
           </Form>
           <div className="flex justify-center absolute left-0 bottom-10 w-full">
             Henüz bir hesabınız yok mu?&nbsp;
-            <Link to="/register" className="text-blue-600">
+            <Link to="/" className="text-blue-600">
               Şimdi kaydol
             </Link>
           </div>
